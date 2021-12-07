@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,146 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+   font-family: 'Bebas Neue', cursive;
+}
+
+
+#header {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   background-color: Black;
+   color: white;
+   font-size: 56px;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+#subhead {
+   text-align: center;
+   font-size: 36px;
+}
+
+.img {
+   width: 75%;
+   height: 75%;
+   box-shadow: 10px 10px 10px #000;
+
+
+}
+
+
+.add {
+   text-align: center;
+   font-weight: bolder;
+   background-color: white;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+
+.create {
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+   background-color: ivory;
+}
+
+.submit {
+   background-color: black;
+   color: ivory;
+   font-weight:bolder;
+}
+
+.submit:hover {
+   background-color: black;
+   color: darkolivegreen;
+}
+
+
+
+
+p{
+   color: ivory;
+   margin-bottom: 3px;
+}
+
+.icons{
+   width: 35px;
+}
+
+
+
+.modal {
+   background-color: ivory;
+   border: 3px solid black;
+   position: absolute;
+   float: left;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+	z-index: 1;
+   width: 600px;
+   max-width: 100%;
+   height: 600px;
+   max-height: 100%;
+	overflow: auto;
+   display: none;
+}
+
+#closeModal {
+   position: absolute;
+   top: 0;
+   right:0;
+   background-color: black;
+   color: ivory;
+}
+
+#modalimg {
+   height: 400px;
+   width: 500px;
+}
+
+#delete {
+   margin-bottom: 3px;
+   background-color: ivory;
+}
+
+#delete:hover {
+   background-color: red;
+   color: ivory;
+}
+
+input {
+    width: 300px;
+    margin: 20px;
+}
+
+h4 {
+    font-size: 28px;
+    color: red;
+    font-style: oblique;
+    font-weight: normal;
+
+}
+
+h3 {
+    font-size: 26px;
+    color: red;
+    font-style: oblique;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: monospace;
+}
+
+#root {
+    text-align: center;
+} */
