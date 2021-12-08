@@ -3,13 +3,11 @@ import './App.css';
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import './index.css';
-// import "tailwindcss/tailwind.css";
 import Add from './components/Add.js';
 
-// import './index.css';
 
-// const backend_url_prefix = ""
-const backend_url_prefix = "http://localhost:8000/api"
+const backend_url_prefix = "https://cars-back-end.herokuapp.com/api"
+// const backend_url_prefix = "http://localhost:8000/api"
 
 
 const App = () => {
