@@ -47,7 +47,7 @@ const App = () => {
         <>
 
 
-        <h1 className='bg-black dark:bg-white text-white text-center font-semibold text-5xl'> Fastes and most Powerfull cars on a planet </h1>
+        <h1 className='bg-black dark:bg-white text-white text-center font-semibold text-5xl'> Fastest and most Powerful cars on a planet </h1>
         <h2 className='decoration-clone bg-gradient-to-b from-yellow-400 to-red-500 text-transparent text-2xl text-center text-black'> Fastes Cars </h2>
         <div className="bg-gray-900 bg-opacity-55 ">
         {cars
